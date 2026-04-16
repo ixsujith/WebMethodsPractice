@@ -834,7 +834,7 @@
 </BRANCH>
 </SEQUENCE>
 
-<SEQUENCE NAME="%month% &lt; 1" TIMEOUT="" EXIT-ON="FAILURE">
+<SEQUENCE NAME="%month% == 0" TIMEOUT="" EXIT-ON="FAILURE">
   <COMMENT></COMMENT>
 
   <!-- nodes -->
@@ -1283,6 +1283,11 @@
 
   <!-- nodes -->
 
+<BRANCH TIMEOUT="" LABELEXPRESSIONS="true">
+  <COMMENT></COMMENT>
+
+  <!-- nodes -->
+
 <MAP NAME="%days% > 1" TIMEOUT="" MODE="STANDALONE">
   <COMMENT></COMMENT>
   <MAPTARGET>
@@ -1714,6 +1719,7 @@
 </DATA>
 </MAPSET>
 </MAP>
+</BRANCH>
 </SEQUENCE>
 </BRANCH>
 </SEQUENCE>

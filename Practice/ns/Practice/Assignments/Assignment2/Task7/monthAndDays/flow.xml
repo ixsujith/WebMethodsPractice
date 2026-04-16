@@ -834,7 +834,7 @@
 </BRANCH>
 </SEQUENCE>
 
-<SEQUENCE NAME="%month% &lt; 1" TIMEOUT="" EXIT-ON="FAILURE">
+<SEQUENCE NAME="%month% == 0" TIMEOUT="" EXIT-ON="FAILURE">
   <COMMENT></COMMENT>
 
   <!-- nodes -->
@@ -971,7 +971,7 @@
   <DATA ENCODING="XMLValues" I18N="true">
 
 <Values version="2.0">
-  <value name="xml">%month% month and %days% days</value>
+  <value name="xml">%month% months and %days% days</value>
   <record name="type" javaclass="com.wm.util.Values">
     <value name="node_type">unknown</value>
     <value name="node_subtype">unknown</value>
@@ -1259,7 +1259,7 @@
   <DATA ENCODING="XMLValues" I18N="true">
 
 <Values version="2.0">
-  <value name="xml">%month% month and %days% day</value>
+  <value name="xml">%month% months and %days% day</value>
   <record name="type" javaclass="com.wm.util.Values">
     <value name="node_type">unknown</value>
     <value name="node_subtype">unknown</value>
