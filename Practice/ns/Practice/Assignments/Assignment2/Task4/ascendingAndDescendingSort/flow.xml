@@ -134,7 +134,7 @@
 </MAP>
 
 <RETRY TIMEOUT="" COUNT="%listLength%" BACK-OFF="" LOOP-ON="SUCCESS">
-  <COMMENT></COMMENT>
+  <COMMENT>Ascending order</COMMENT>
 
   <!-- nodes -->
 
@@ -1433,7 +1433,7 @@
 </MAP>
 
 <RETRY TIMEOUT="" COUNT="%listLength%" BACK-OFF="" LOOP-ON="SUCCESS">
-  <COMMENT></COMMENT>
+  <COMMENT>Descending order</COMMENT>
 
   <!-- nodes -->
 
