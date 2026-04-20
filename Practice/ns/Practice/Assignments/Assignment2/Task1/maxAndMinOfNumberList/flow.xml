@@ -93,9 +93,6 @@
 <MAPCOPY FROM="/inputList;1;1" TO="/inputValues;1;1">
 </MAPCOPY>
 </MAP>
-
-<MAP MODE="OUTPUT">
-</MAP>
 </INVOKE>
 
 <LOOP TIMEOUT="" IN-ARRAY="/minList">
