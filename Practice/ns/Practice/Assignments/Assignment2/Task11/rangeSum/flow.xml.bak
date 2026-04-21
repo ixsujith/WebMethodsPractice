@@ -3628,12 +3628,12 @@
 </INVOKE>
 </SEQUENCE>
 
-<SEQUENCE TIMEOUT="" EXIT-ON="FAILURE" DISABLED="true" FORM="FINALLY">
+<SEQUENCE TIMEOUT="" EXIT-ON="FAILURE" FORM="FINALLY">
   <COMMENT></COMMENT>
 
   <!-- nodes -->
 
-<INVOKE TIMEOUT="" SERVICE="pub.flow:clearPipeline" VALIDATE-IN="$none" VALIDATE-OUT="$none" DISABLED="true">
+<INVOKE TIMEOUT="" SERVICE="pub.flow:clearPipeline" VALIDATE-IN="$none" VALIDATE-OUT="$none">
   <COMMENT></COMMENT>
 
   <!-- nodes -->
